@@ -53,6 +53,7 @@ body {
   width: 16.6vw;
   height: 6vw;
   background-image: url(../images/back.png);
+
   border: solid;
   border-width: 0.3vw;
   border-color: black;
@@ -66,6 +67,7 @@ body {
   width: 27.3vw;
   height: 12.3vw;
   background-image: url(../images/back.png);
+
   border: solid;
   border-width: 0.3vw;
   border-color: black;
@@ -79,6 +81,7 @@ body {
   width: 16.6vw;
   height: 6vw;
   background-image: url(../images/back.png);
+
   border: solid;
   border-width: 0.3vw;
   border-color: black;
@@ -92,6 +95,7 @@ body {
   width: 33.75vw;
   height: 38vw;
   background-image: url(../images/back.png);
+  background-size: contain;
   border: solid;
   border-width: 0.3vw;
   border-color: black;
@@ -119,6 +123,7 @@ body {
   width: 20.9vw;
   height: 16.4vw;
   background-image: url(../images/back.png);
+  background-size: contain;
   border: solid;
   border-width: 0.3vw;
   border-color: black;
@@ -132,6 +137,7 @@ body {
   width: 16.6vw;
   height: 6vw;
   background-image: url(../images/back.png);
+
   border: solid;
   border-width: 0.3vw;
   border-color: black;
@@ -167,11 +173,6 @@ body {
   transform: rotate(0) translateX(20vw) translateY(10vw) rotate(0);
 }
 
-.first p {
-  position: absolute;
-  margin-top:;
-  margin-left:;
-}
 .second {
   display: flex;
   flex-direction: column;
@@ -377,7 +378,7 @@ body {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 69.7vw;
+  /* height: 69.7vw; */
 }
 .list {
   display: flex;
@@ -944,7 +945,7 @@ body {
 }
 .greentab2 p {
   white-space: pre-line;
-  padding-left: 5vw;
+  padding-left: 3vw;
 }
 .greentab3 {
   position: absolute;

@@ -1,0 +1,115 @@
+@media screen and (min-width: 1px) and (max-width: 414px) {
+  .main {
+    font-size: 1.6vw;
+  }
+  .helping {
+    font-size: 1.1vw;
+  }
+  .backs1 {
+    height: 16.6vw;
+    width: 6vw;
+    margin-left: 5vw;
+    margin-top: 10.75vw;
+    background-size: contain;
+  }
+  .backs2 {
+    width: 23.3vw;
+    height: 14.3vw;
+    margin-left: 7vw;
+    background-size: contain;
+  }
+  .first .backs3 {
+    opacity: 0;
+  }
+  .first {
+    height: 85vw;
+  }
+  .backs4 {
+    width: 36.75vw;
+    height: 40vw;
+    margin-left: 20.6vw;
+    margin-top: 40vw;
+    background-size: contain;
+  }
+  .backs5 {
+    width: 34.3vw;
+    height: 45.8vw;
+    background-size: contain;
+    margin-left: 30.6vw;
+    margin-top: 13.75vw;
+  }
+  .backs6 {
+    width: 15.9vw;
+    height: 30.4vw;
+    margin-left: 67.8vw;
+    margin-top: 3.3vw;
+    background-size: contain;
+  }
+  .backs7 {
+    height: 16.6vw;
+    width: 6vw;
+    margin-left: 75.8vw;
+    margin-top: 65.8vw;
+    background-size: contain;
+  }
+  .first img:nth-of-type(2) {
+    width: 70.4vw;
+    height: 21.2vw;
+    margin-top: 35vw;
+    margin-left: 13vw;
+    z-index: 2;
+  }
+  .container {
+    min-height: 85vw;
+  }
+  .second {
+    gap: 10vw;
+  }
+  .second h1 {
+    padding-left: 22vw;
+    padding-top: 0vw;
+  }
+  .second img {
+    width: 53.8vw;
+    height: 13.5vw;
+    margin-left: 22vw;
+  }
+  .third {
+    flex-direction: column;
+    height: 73vw;
+  }
+  .clicker {
+    margin-left: 13vw;
+    gap: 0;
+    flex-direction: row;
+  }
+  #slider-container {
+    margin-top: 25vw;
+    height: 0vh;
+  }
+  .letters {
+    margin-left: 30vw;
+    margin-top: 0;
+  }
+  .list h1 {
+    padding-left: 65vw;
+  }
+  .clicker p {
+    padding-left: 0;
+  }
+  .four {
+    flex-direction: column-reverse;
+    height: none;
+  }
+  .tops img:nth-of-type(1) {
+    transform: rotate(90deg) !important;
+    margin-top: 0;
+    animation: none !important;
+    margin-left: 65vw;
+  }
+  .tops {
+    flex-direction: column-reverse;
+    gap: 0;
+    height: 48.9;
+  }
+}
